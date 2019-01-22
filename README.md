@@ -35,11 +35,13 @@ python tmsandbox_testthree.py
 
 Respective file output's:
 
-python tmsandbox_testone.py.
+
+python tmsandbox_testone.py
 
 Execution output should be :
 
 All the Assertions are successful
+
 
 
 python tmsandbox_testtwo.py
@@ -47,6 +49,7 @@ python tmsandbox_testtwo.py
 Execution output should be :
 
 All the Assertions verification are successful with catching exceptions
+
 
 
 
