@@ -6,13 +6,13 @@ This project contains three files
 1.tmsandbox_testone.py
 
 Description:
-This file will make a call to one API endpoint and will read all the responses for making direct assertions.
+This file will make a call to one API endpoint and will read all the responses for making direct assertions and will fail the test right away even if one assertion got failed.
 
 2.tmsandbox_testtwo.py
 
 Description:
 This file will make a call to one API endpoint and will read all the responses.
-Once responses are available it will keep on asserting each requirement in try catch blocks and for any exceptions if it got to see then it would log it on the console and also on the file by name "report.txt" in one's current directory for reference.
+Once responses are available it will keep on asserting each requirement in try catch blocks and for any exceptions if it got to see then it would not fail the test and will still proceed further then it would log it on the console and also on the file by name "report.txt" in one's current directory for reference.
 
 3.tmsandbox_testthree.py
 
