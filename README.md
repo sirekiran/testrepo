@@ -31,3 +31,34 @@ python tmsandbox_testtwo.py
 
 python tmsandbox_testthree.py
 
+
+
+Respective file output's:
+
+python tmsandbox_testone.py.
+
+Execution output should be :
+
+All the Assertions are successful
+
+
+python tmsandbox_testtwo.py
+
+Execution output should be :
+
+All the Assertions verification are successful with catching exceptions
+
+
+
+python tmsandbox_testthree.py
+
+Execution output should be :
+
+ERROR:root: seen for Name field assertions since expected is Carbon credits Carbon credits but actual is Carbon credits
+ERROR:root: seen for CanRelist field assertions since expected is False while actual is True
+ERROR:root: seen for Gallery description since expected subtext is 2x larger image 2x larger image but actual is Good position in category 
+2x larger image in desktop site search results
+All the Assertions verification are successful with catching exceptions
+
+
+
